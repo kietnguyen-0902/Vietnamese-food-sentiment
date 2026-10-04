@@ -59,7 +59,8 @@ The notebook is fully automated. To run the project:
 1. Clone this repository.
 2. Install the required dependencies:
    ```bash
-   pip install -r requirements.txt```
+   pip install -r requirements.txt
+   ```
 3.Open notebooks/vsa_food_reviews.ipynb via Jupyter Notebook or Google Colab.
 4.Run all cells. The script will automatically connect to Kaggle via kagglehub, download the dataset into your local memory, and execute the entire pipeline from EDA to Model Inference.
 
