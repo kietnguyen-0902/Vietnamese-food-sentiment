@@ -62,13 +62,5 @@ The notebook is fully automated. To run the project:
    pip install -r requirements.txt
    ```
 3.Open notebooks/vsa_food_reviews.ipynb via Jupyter Notebook or Google Colab.
+
 4.Run all cells. The script will automatically connect to Kaggle via kagglehub, download the dataset into your local memory, and execute the entire pipeline from EDA to Model Inference.
-
-##💡 Inference Demo
-The pipeline includes a production-ready inference function that applies the exact preprocessing/vectorization steps to raw user text before prediction.
-
-Text: 'Tuyệt vời! Đồ ăn tươi, nóng, ngon. Nhân viên thân thiện.'
-Prediction: Positive 😊
---------------------------------------------------
-Text: 'Chất lượng tệ, giá đắt, service chậm. Không bao giờ quay lại.'
-Prediction: Negative 😞
