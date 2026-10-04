@@ -27,7 +27,7 @@ vietnamese-food-sentiment/
 ├── .gitignore                      # Excludes heavy data and cache files
 ├── requirements.txt                # Project dependencies
 └── README.md                       # Project documentation
-
+```
 ## ⚙️ Tech Stack
 *   **Data Retrieval:** `kagglehub` (Automated dataset fetching)
 *   **Data Manipulation & Analysis:** `pandas`, `numpy`, `scipy`
