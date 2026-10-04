@@ -41,7 +41,7 @@ vietnamese-food-sentiment/
 
 The dataset exhibits a class imbalance (~3:1 ratio for Positive:Negative). Both custom models perform exceptionally well on the TF-IDF feature space, but their structural differences make them suitable for different business scenarios:
 
-### 1. Naive Bayes (F1-Score: ~0.89)
+### 1. Naive Bayes (F1-Score: ~0.9)
 *   **Scenario:** General sentiment tracking, Social Listening, and Dashboarding.
 *   **Why:** NB achieved an outstanding **Recall (0.98)** for positive reviews. It aggressively identifies positive sentiment, ensuring no good review slips through the cracks. It is also exceptionally fast to train and infer, making it ideal for real-time streaming data or resource-constrained environments.
 
